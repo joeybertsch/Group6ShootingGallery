@@ -12,12 +12,12 @@ public class Target : MonoBehaviour
 
     public AudioClip hitSound;
 
-    //protected Effect effectScript;
+    protected Effect effectScript;
 
     // Start is called before the first frame update
     void Awake()
     {
-        //effectScript = effectsManager.GetComponent<Effect>();
+        effectScript = effectsManager.GetComponent<Effect>();
     }
 
     // Update is called once per frame
